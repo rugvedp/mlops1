@@ -1,0 +1,15 @@
+[2024-06-21 18:54:33,837] 97 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.0.189:8000
+[2024-06-21 18:54:33,837] 97 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[2024-06-21 18:54:47,157] 97 werkzeug - INFO - 127.0.0.1 - - [21/Jun/2024 18:54:47] "GET / HTTP/1.1" 200 -
+[2024-06-21 18:54:47,227] 97 werkzeug - INFO - 127.0.0.1 - - [21/Jun/2024 18:54:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2024-06-21 18:54:57,522] 97 werkzeug - INFO - 127.0.0.1 - - [21/Jun/2024 18:54:57] "GET /predict HTTP/1.1" 200 -
+[2024-06-21 18:55:13,651] 68 root - INFO - Dataframe Gathered
+[2024-06-21 18:55:14,520] 97 werkzeug - INFO - 127.0.0.1 - - [21/Jun/2024 18:55:14] "POST /predict HTTP/1.1" 200 -
+[2024-06-21 18:55:21,784] 97 werkzeug - INFO - 127.0.0.1 - - [21/Jun/2024 18:55:21] "GET /predict HTTP/1.1" 200 -
+[2024-06-21 18:55:56,742] 68 root - INFO - Dataframe Gathered
+[2024-06-21 18:55:56,748] 97 werkzeug - INFO - 127.0.0.1 - - [21/Jun/2024 18:55:56] "POST /predict HTTP/1.1" 200 -
+[2024-06-21 18:55:57,764] 97 werkzeug - INFO - 127.0.0.1 - - [21/Jun/2024 18:55:57] "GET /predict HTTP/1.1" 200 -
+[2024-06-21 18:55:59,916] 97 werkzeug - INFO - 127.0.0.1 - - [21/Jun/2024 18:55:59] "GET / HTTP/1.1" 200 -
